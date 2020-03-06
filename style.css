@@ -36,6 +36,8 @@ body {
   padding: 2rem;
 }
 
+
+
 /*.outer-clock-face {
   position: relative;
   width: 100%;
@@ -152,4 +154,7 @@ body {
 .hand.second-hand {
   background: #ff5e5e;
   width: 40%;
+}
+
+.wrapper{ 
 }
