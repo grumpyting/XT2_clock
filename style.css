@@ -12,28 +12,37 @@
   float: left;
 }
 
-html {
-  background: #ff9998;
-  text-align: center;
-  font-size: 10px;
+#logo{
+  width: 20%;
+  height: 20%;
 }
 
-body {
+
+header{
+  display: flex;
+}
+
+
+html {
+  background: #0F1112 ;
+  text-align: center;
+}
+
+main {
   margin: 0;
-  font-size: 2rem;
   display: flex;
   flex: 1;
-  min-height: 100vh;
   align-items: center;
+  
 }
 
 .clock {
-  width: 30rem;
-  height: 30rem;
+  width: 600px;
+  height: 600px;
   border-radius: 50%;
-  margin: 50px auto;
+  margin: 150px auto;
   position: relative;
-  padding: 2rem;
+
 }
 
 
@@ -157,10 +166,15 @@ body {
 }
 
 .wrapper{ 
+  margin: 0;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
 }
 
 .rocket > img{
-  width: 30%;
-  height: 30%;
-  margin-left: -250px;
+  width: 32%;
+  height: 32%;
+  margin-left: -400px;
 }
