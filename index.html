@@ -55,33 +55,22 @@ function setDate() {
   hourHand.style.transform = `rotate(${hourDegrees}deg)`;
 
 
-
+var current= new Date()
+var day_night=current.getHours()
+if (day_night<=12){ 
+	console.log('heb ik de element te pakken:', document.getByClassName('inner-clock-face'))
+	/*document.getElementsByClassName('.inner-clock-face').style.backgroundImage= 'url("earth.png")';*/
+}
+/*else{
+    document.getElementsByClassName('.inner-clock-face').style.backgroundImage = 'url("night.png")';
+}*/
 }
 
 setInterval(setDate, 1000);
 
 setDate();
 
-/*var inc = 1000;
 
-clock();
 
-function clock() {
-  const date = new Date();
-
-  const hours = ((date.getHours() + 11) % 12 + 1);
-  const minutes = date.getMinutes();
-  const seconds = date.getSeconds();
-  
-  const hour = hours * 30;
-  const minute = minutes * 6;
-  const second = seconds * 6;
-  
-  document.querySelector('.hour').style.transform = `rotate(${hour}deg)`
-  document.querySelector('.minute').style.transform = `rotate(${minute}deg)`
-  document.querySelector('.second').style.transform = `rotate(${second}deg)`
-}
-
-setInterval(clock, inc);*/
 
 		</script>

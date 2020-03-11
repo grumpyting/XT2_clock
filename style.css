@@ -6,7 +6,7 @@
 
 }*/
 
-#mars{
+#earth{
   width: 50%;
   height: 50%;
   float: left;
@@ -113,7 +113,6 @@ main {
   left: 10%;
   width: 80%;
   height: 80%;
-   background-image: url("mars.png");
   background-repeat: no-repeat;
   background-size:100%;
   -webkit-border-radius: 100%;
