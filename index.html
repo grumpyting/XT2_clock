@@ -58,12 +58,12 @@ function setDate() {
 var current= new Date()
 var day_night=current.getHours()
 if (day_night<=12){ 
-	console.log('heb ik de element te pakken:', document.getByClassName('inner-clock-face'))
-	/*document.getElementsByClassName('.inner-clock-face').style.backgroundImage= 'url("earth.png")';*/
+	/*console.log('heb ik de element te pakken:', document.getByClassName('inner-clock-face'))*/
+	document.getElementsByClassName('.inner-clock-face').style.backgroundImage= 'url("earth.png")';
 }
-/*else{
+else{
     document.getElementsByClassName('.inner-clock-face').style.backgroundImage = 'url("night.png")';
-}*/
+}
 }
 
 setInterval(setDate, 1000);
