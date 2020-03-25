@@ -3,15 +3,14 @@
 	<head>
 		<title>hello world</title>
 		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="style.css">
-
-
-
 	</head>
-		<body>
+		<body id="banner">
 			<header>
 				<img id="logo" src="logo.png">
 			</header>
+			<h1 id="welcome"></h1>
 
 			<main>
 				<div class="clock">
@@ -29,7 +28,6 @@
 				</div>
 			</main>
 		</body>
-	
 	</html>
 		<script type="text/javascript">
 
@@ -54,23 +52,22 @@ function setDate() {
   const hourDegrees = ((hour / 12) * 360) + ((mins/60)*30) + 90;
   hourHand.style.transform = `rotate(${hourDegrees}deg)`;
 
-
-var current= new Date()
-var day_night=current.getHours()
-if (day_night<=12){ 
-	/*console.log('heb ik de element te pakken:', document.getByClassName('inner-clock-face'))*/
-	document.getElementsByClassName('.inner-clock-face').style.backgroundImage= 'url("earth.png")';
-}
-else{
-    document.getElementsByClassName('.inner-clock-face').style.backgroundImage = 'url("night.png")';
-}
 }
 
 setInterval(setDate, 1000);
 
 setDate();
 
+var current= new Date()
+	var day_night=current.getHours()
+	if (day_night<=19){ 
+		document.getElementById("welcome").innerHTML = "Good day!";
+		document.querySelector('.inner-clock-face').style.backgroundImage= 'url("earth.png")';
+
+	}else{
+		document.getElementById("welcome").innerHTML = "Good evening!";
+		document.querySelector('.inner-clock-face').style.backgroundImage = 'url("night.png")';
+	}
 
 
-
-		</script>
+</script>
