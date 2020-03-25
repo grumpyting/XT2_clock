@@ -163,7 +163,8 @@ main {
     -webkit-animation: animate_background 6s linear 0s infinite;
     -moz-animation: animate_background 6s linear 0s infinite;
     -o-animation: animate_background 6s linear 0s infinite;
-    animation: animate_background 6s linear 0s infinite;  
+    animation: animate_background 6s linear 0s infinite;
+	background:;
 }
 
 @-webkit-keyframes animate_background { 
