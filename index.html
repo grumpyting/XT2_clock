@@ -60,7 +60,7 @@ setDate();
 
 var current= new Date()
 	var day_night=current.getHours()
-	if (day_night<=19){ 
+	if (day_night<18){ 
 		document.getElementById("welcome").innerHTML = "Good day!";
 		document.querySelector('.inner-clock-face').style.backgroundImage= 'url("earth.png")';
 

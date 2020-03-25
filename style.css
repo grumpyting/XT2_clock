@@ -41,8 +41,8 @@ main {
 }
 
 .clock {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   margin: 150px auto;
   position: relative;
@@ -91,6 +91,7 @@ main {
   -moz-border-radius: 100%;
   border-radius: 100%;
   z-index: 1;
+  margin-top: -100px;
 }
 
 .inner-clock-face::before {
@@ -202,42 +203,42 @@ main {
   .rocket > img{
     width: 25%;
     height: 25%;
-    margin-left: -550px;
+    margin-left: -300px;
   }
   #logo{
-    margin-top: 50px;
-    width: 550px;
+    margin-top: 30px;
+    width: 350px;
     float: left;
     display: inline-block;
   }
   .inner-clock-face{
-    margin-top: -55px;
+    margin-top: -155px;
   }
   .clock {
-    width: 900px;
-    height: 900px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     margin: 150px auto;
     position: relative;
   }
 
   #welcome{
-    margin-top: 40px;
-    font-size: 50pt;
+    margin-top: 20px;
+    font-size: 30pt;
   }
 
 }
 
 @media only screen and (min-width: 1024px) {
   .clock {
-    width: 1000px;
-    height: 1000px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
   }
   .rocket > img{
     width: 25%;
     height: 25%;
-    margin-left: -650px;
+    margin-left: -450px;
   }
   .inner-clock-face{
     margin-top: -75px;
@@ -247,20 +248,21 @@ main {
 
 @media only screen and (min-width: 1200px) {
   .clock {
-    width: 1100px;
-    height: 1100px;
+    width: 700px;
+    height: 700px;
   }
+
   .inner-clock-face{
-    margin-top: -90px;
+    margin-top: -200px;
   }
   .rocket > img{
     width: 30%;
     height: 30%;
-    margin-left: -750px;
+    margin-left: -550px;
   }
 
   #welcome{
-    margin-top: 80px;
-    font-size: 60pt;
+    margin-top: 40px;
+    font-size: 40pt;
   }
 }
