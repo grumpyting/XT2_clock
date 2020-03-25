@@ -164,7 +164,6 @@ main {
     -moz-animation: animate_background 6s linear 0s infinite;
     -o-animation: animate_background 6s linear 0s infinite;
     animation: animate_background 6s linear 0s infinite;
-	background:;
 }
 
 @-webkit-keyframes animate_background { 
@@ -172,7 +171,7 @@ main {
         background-position: 0 0;
     } 
     to { 
-        background-position: 0 -200px;
+        background-position: 0 -500px;
     } 
 }
 @-moz-keyframes animate_background { 
@@ -180,7 +179,7 @@ main {
         background-position: 0 0;
     } 
     to { 
-        background-position: 0 -200px;
+        background-position: 0 -500px;
     } 
 }
 @-o-keyframes animate_background { 
@@ -188,15 +187,15 @@ main {
         background-position: 0 0;
     } 
     to { 
-        background-position: 0 -200px;
+        background-position: 0 -500px;
     } 
 }
 @keyframes animate_background { 
     from { 
         background-position: 0 0;
-    } 
+    }
     to { 
-        background-position: 0 -200px;
+        background-position: 0 -500px;
     } 
 }
 
