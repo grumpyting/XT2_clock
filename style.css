@@ -160,10 +160,10 @@ main {
 
 #banner {
     background: url('banner.jpg') 0 0 repeat;
-    -webkit-animation: animate_background 10s linear 0s infinite;
-    -moz-animation: animate_background 10s linear 0s infinite;
-    -o-animation: animate_background 10s linear 0s infinite;
-    animation: animate_background 10s linear 0s infinite;
+    -webkit-animation: animate_background 15s linear 1s infinite;
+    -moz-animation: animate_background 15s linear 1s infinite;
+    -o-animation: animate_background 15s linear 1s infinite;
+    animation: animate_background 15s linear 1s infinite;
 }
 
 @-webkit-keyframes animate_background { 
