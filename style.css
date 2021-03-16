@@ -14,18 +14,21 @@ body {
   width: 50%;
   height: 50%;
   float: left;
+  flex-direction: column;
 }
 
 #welcome{
-  margin-top: 20px;
+  margin: : 20px;
   color: white;
   font-size: 20pt;
+  flex-direction: column;
 }
 
 #fullDate{
   margin-top: 15px;
   color: white;
   font-size: 16pt;
+  flex-direction: column;
 }
 
 header{
@@ -51,6 +54,7 @@ main {
   border-radius: 50%;
   margin: 90px auto;
   position: relative;
+  flex-direction: column;
 }
 
 .outer-clock-face .marking {
@@ -89,7 +93,7 @@ main {
   left: 10%;
   width: 80%;
   height: 80%;
-  background-image: url("earth.png");
+  background-image: url("images/earth.png");
   background-repeat: no-repeat;
   background-size:100%;
   -webkit-border-radius: 100%;
@@ -210,7 +214,7 @@ main {
   .rocket > img{
     width: 25%;
     height: 25%;
-    margin-left: -350px;
+    margin-left: -250px;
   }
   #logo{
     margin-top: 30px;
@@ -244,11 +248,12 @@ main {
     width: 600px;
     height: 600px;
     border-radius: 50%;
+    margin-top: 50px;
   }
   .rocket > img{
     width: 25%;
     height: 25%;
-    margin-left: -450px;
+    margin-left: -350px;
   }
   .inner-clock-face{
     margin-top: -75px;
@@ -258,8 +263,8 @@ main {
 
 @media only screen and (min-width: 1200px) {
   .clock {
-    width: 650px;
-    height: 650px;
+    width: 570px;
+    height: 570px;
   }
 
   .inner-clock-face{
@@ -272,11 +277,11 @@ main {
   }
 
   #welcome{
-    margin-top: 30px;
-    font-size: 40pt;
+    margin-top: 15px;
+    font-size: 38pt;
   }
   #fullDate{
-    margin-top: 10px
-    font-size: 36pt;
+    margin-top: 5px;
+    font-size: 30pt;
   }
 }
