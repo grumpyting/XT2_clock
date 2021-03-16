@@ -49,8 +49,8 @@ main {
 }
 
 .clock {
-  width: 280px;
-  height: 280px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   margin: 90px auto;
   position: relative;
