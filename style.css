@@ -22,6 +22,12 @@ body {
   font-size: 20pt;
 }
 
+#fullDate{
+  margin-top: 15px;
+  color: white;
+  font-size: 16pt;
+}
+
 header{
   display: flex;
 }
@@ -40,10 +46,10 @@ main {
 }
 
 .clock {
-  width: 400px;
-  height: 400px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
-  margin: 150px auto;
+  margin: 90px auto;
   position: relative;
 }
 
@@ -147,15 +153,17 @@ main {
 .rocket > img{
   width: 25%;
   height: 25%;
-  margin-left: -350px;
+  margin-left: -180px;
 }
 
 #logo{
   margin-top: 5px;
-  width: 350px;
+  width: 300px;
   float: left;
   display: inline-block;
 }
+
+
 
 #banner {
     background: url('banner.jpg') 0 0 repeat;
@@ -202,7 +210,7 @@ main {
   .rocket > img{
     width: 25%;
     height: 25%;
-    margin-left: -300px;
+    margin-left: -350px;
   }
   #logo{
     margin-top: 30px;
@@ -224,6 +232,9 @@ main {
   #welcome{
     margin-top: 20px;
     font-size: 30pt;
+  }
+  #fullDate{
+    font-size: 20pt;
   }
 
 }
@@ -263,5 +274,9 @@ main {
   #welcome{
     margin-top: 30px;
     font-size: 40pt;
+  }
+  #fullDate{
+    margin-top: 10px
+    font-size: 36pt;
   }
 }

@@ -34,3 +34,6 @@ var current= new Date()
     document.getElementById("welcome").innerHTML = "Good evening!";
     document.querySelector('.inner-clock-face').style.backgroundImage = 'url("night.png")';
   }
+
+var today = new Date()
+document.getElementById('fullDate').innerHTML = today.getDate() + '/' + (today.getMonth()+1) +"/"+today.getFullYear();
