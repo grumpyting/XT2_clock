@@ -14,7 +14,6 @@ body {
   width: 50%;
   height: 50%;
   float: left;
-  flex-direction: column;
 }
 
 #welcome{
@@ -54,7 +53,6 @@ main {
   border-radius: 50%;
   margin: 90px auto;
   position: relative;
-  flex-direction: column;
 }
 
 .outer-clock-face .marking {
@@ -157,7 +155,7 @@ main {
 .rocket > img{
   width: 25%;
   height: 25%;
-  margin-left: -180px;
+  margin-left: -210px;
 }
 
 #logo{
