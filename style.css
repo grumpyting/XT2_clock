@@ -93,7 +93,7 @@ main {
   left: 10%;
   width: 80%;
   height: 80%;
-  background-image: url("images/earth.png");
+  background-image: url("earth.png");
   background-repeat: no-repeat;
   background-size:100%;
   -webkit-border-radius: 100%;
@@ -268,7 +268,7 @@ main {
   }
 
   .inner-clock-face{
-    margin-top: -200px;
+    margin-top: -50px;
   }
   .rocket > img{
     width: 30%;
