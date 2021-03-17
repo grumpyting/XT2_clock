@@ -212,7 +212,7 @@ main {
   .rocket > img{
     width: 25%;
     height: 25%;
-    margin-left: -250px;
+    margin-left: -300px;
   }
   #logo{
     margin-top: 30px;
@@ -261,8 +261,9 @@ main {
 
 @media only screen and (min-width: 1200px) {
   .clock {
-    width: 570px;
-    height: 570px;
+    width: 650px;
+    height: 650px;
+    margin-top: 150px;
   }
 
   .inner-clock-face{
