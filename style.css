@@ -251,7 +251,7 @@ main {
   .rocket > img{
     width: 25%;
     height: 25%;
-    margin-left: -350px;
+    margin-left: -325px;
   }
   .inner-clock-face{
     margin-top: -75px;
@@ -272,7 +272,7 @@ main {
   .rocket > img{
     width: 30%;
     height: 30%;
-    margin-left: -450px;
+    margin-left: -400px;
   }
 
   #welcome{
